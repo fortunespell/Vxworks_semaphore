@@ -29,8 +29,6 @@ The project consists of three functions:
 
 ### How it Works
 
-The binary semaphore acts as a lock, ensuring that only one task can access the critical section at a time. 
-
 1. `task1` acquires the semaphore, entering the critical section.
 2. `task2` attempts to acquire the semaphore but is blocked as `task1` holds it.
 3. `task1` completes its work in the critical section and releases the semaphore.
@@ -42,6 +40,7 @@ This ensures that the critical section is accessed sequentially, preventing race
   <img src="https://github.com/user-attachments/assets/f9b43e3a-1c73-40c7-b1de-810981098408" alt="Image">
 </p>
 
+The binary semaphore acts as a lock, ensuring that only one task can access the critical section at a time. 
 
 ### Building and Running the Project
 
