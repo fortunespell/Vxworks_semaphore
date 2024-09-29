@@ -38,6 +38,8 @@ The binary semaphore acts as a lock, ensuring that only one task can access the 
 
 This ensures that the critical section is accessed sequentially, preventing race conditions and data corruption.
 
+![image](https://github.com/user-attachments/assets/f9b43e3a-1c73-40c7-b1de-810981098408)
+
 ### Building and Running the Project
 
 1. This code is intended to be run within a VxWorks environment.
