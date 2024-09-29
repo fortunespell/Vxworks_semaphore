@@ -49,6 +49,9 @@ The binary semaphore acts as a lock, ensuring that only one task can access the 
 3. Compile and link the code using a VxWorks cross-compiler.
 4. Download and run the executable on a VxWorks target.
 
+![image](https://github.com/user-attachments/assets/de745292-8c50-45a4-bca8-8c45ac8d853a)
+
+
 ### Notes
 
 - This code uses the VxWorks task library (`taskLib.h`) and semaphore library (`semLib.h`). 
